@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Software House</title>
+</head>
+<body>
+
+<nav class="flex justify-between items-center p-4 bg-black text-white">
+<div class="text-x1 text-green-600 font-bold">MATRIX SOFTWARE HOUSE</div>
+<div class="md:hidden"><button id="menu-btn" class="text-green-500 focus:ring-green">☰</button></div>
+<ul id="menu" class="space-x-6 hidden md:flex md:items-center">
+
+                <li class="hover:text-green-500 cursor-pointer"><a href="#inicio">Inicio</a></li>
+                <li class="hover:text-green-500 cursor-pointer"><a href="#quemsomos">Quem Somos</a></li>
+                <li class="hover:text-green-500 cursor-pointer"><a href="#fazemos">O Que Fazemos</a></li>
+                <li class="hover:text-green-500 cursor-pointer"><a href="#encomendas">Encomendas</a></li>
+</ul>
+</nav>
+<section id="inicio" class="min-h-screen flex items-center bg-black pt-16 px-6">
+    <div class=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        
+        <div class="space-y-6">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight">
+                Codificando a <span class="text-green-500">Realidade</span> Digital.
+            </h1>
+            <p class="text-zinc-400 text-lg md:text-xl max-w-md">
+                Sistemas avançados, segurança impenetrável e soluções sob medida para quem busca o controle total da rede.
+            </p>
+            <div class="flex space-x-4">
+                <a href="#encomendas" class="bg-green-600 hover:bg-green-500 text-black font-bold py-3 px-8 rounded-sm transition-all uppercase tracking-tighter">
+                    Iniciar Projeto
+                </a>
+                <a href="#fazemos" class="border border-green-600 text-green-500 hover:bg-green-600 hover:text-black font-bold py-3 px-8 rounded-sm transition-all uppercase tracking-tighter">
+                    Ver Serviços
+                </a>
+            </div>
+        </div>
+
+        <div class="relative group">
+            <div class="absolute -inset-1 bg-green-500 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+            
+            <div class="relative bg-zinc-900 border border-green-900 rounded-lg overflow-hidden shadow-2xl">
+                <img src="https://img.freepik.com/vetores-gratis/codigo-binario-de-estilo-matriz-fundo-digital-com-numeros-decrescentes_1017-25336.jpg?semt=ais_hybrid&w=740&q=80" 
+                     alt="Banner Matrix" 
+                     class="w-full h-auto opacity-80 group-hover:opacity-100 transition-opacity">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="quemsomos" class="py-20 bg-zinc-900 text-white px-6">
+    <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold text-green-500 mb-6 uppercase tracking-widest">Quem Somos</h2>
+        <p class="text-lg text-zinc-300 leading-relaxed">
+            A <span class="text-green-500 font-bold">Matrix Software House</span> é um coletivo de desenvolvedores focados em quebrar as barreiras do digital. 
+            Não entregamos apenas código; construímos sistemas robustos e inteligentes que impulsionam empresas para o próximo nível. 
+            Nossa missão é codificar o futuro com precisão e inovação.
+        </p>
+    </div>
+</section>
+
+<section id="fazemos" class="py-20 bg-black text-white px-6 border-b border-green-900/30">
+    <div class="max-w-6xl mx-auto">
+
+    <div class="max-w-4xl mx-auto text-center ">
+        <h2 class="text-3xl font-bold text-green-500 mb-20 uppercase tracking-widest">O Que Fazemos</h2>
+
+
+        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-20 text-center">
+
+            <h3 class="text-xl md:text-2xl font-bold text-zinc-400 hover:text-green-500 transition-all cursor-default uppercase tracking-widest">
+                Desenvolvimento Web
+            </h3>
+
+            <span class="hidden md:block text-green-900 text-2xl">/</span>
+
+            <h3 class="text-xl md:text-2xl font-bold text-zinc-400 hover:text-green-500 transition-all cursor-default uppercase tracking-widest">
+                Segurança Digital
+            </h3>
+
+            <span class="hidden md:block text-green-900 text-2xl">/</span>
+
+            <h3 class="text-xl md:text-2xl font-bold text-zinc-400 hover:text-green-500 transition-all cursor-default uppercase tracking-widest">
+                Automação & IA
+            </h3>
+
+        </div>
+    </div>
+<section id="encomendas" class="py-20 bg-zinc-900 text-white px-6">
+    <div class="max-w-xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-green-500 uppercase tracking-widest">Iniciar Projeto</h2>
+            <p class="text-zinc-400 mt-4">Envie os parâmetros do seu sistema. Resposta em tempo real.</p>
+        </div>
+
+        <form class="space-y-6">
+            <div>
+                <label class="block text-xs uppercase tracking-widest text-green-700 mb-2 font-bold">Identificação</label>
+                <input type="text" placeholder="Nome ou Empresa" 
+                    class="w-full bg-black border border-green-900/50 p-3 rounded-sm focus:outline-none focus:border-green-500 text-green-400 placeholder-zinc-700 transition-all">
+            </div>
+
+            <div>
+                <label class="block text-xs uppercase tracking-widest text-green-700 mb-2 font-bold">Canal de Comunicação</label>
+                <input type="email" placeholder="E-mail" 
+                    class="w-full bg-black border border-green-900/50 p-3 rounded-sm focus:outline-none focus:border-green-500 text-green-400 placeholder-zinc-700 transition-all">
+            </div>
+
+            <div>
+                <label class="block text-xs uppercase tracking-widest text-green-700 mb-2 font-bold">Protocolo (Descrição)</label>
+                <textarea rows="4" placeholder="Descreva sua necessidade..." 
+                    class="w-full bg-black border border-green-900/50 p-3 rounded-sm focus:outline-none focus:border-green-500 text-green-400 placeholder-zinc-700 transition-all"></textarea>
+            </div>
+
+            <button type="submit" 
+                class="w-full bg-green-600 hover:bg-green-500 text-black font-extrabold py-4 rounded-sm transition-all uppercase tracking-widest shadow-[0_0_15px_rgba(34,197,94,0.3)]">
+                Enviar Requisição
+            </button>
+        </form>
+    </div>
+</section>
+
+<footer class="py-10 bg-black border-t border-green-900/20 text-center">
+    <div class="text-green-900 text-xs tracking-[0.3em] uppercase mb-4">
+        &copy; 2026 Matrix Software House - Connection Secured
+    </div>
+    <div class="flex justify-center space-x-6 text-zinc-500 text-sm">
+        <a href="#" class="hover:text-green-500 transition-colors">GitHub</a>
+        <a href="#" class="hover:text-green-500 transition-colors">LinkedIn</a>
+        <a href="#" class="hover:text-green-500 transition-colors">Terminal</a>
+    </div>
+</footer>
+
+</body>
+<script src="script.js"></script>
+</html>
